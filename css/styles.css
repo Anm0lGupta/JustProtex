@@ -1,0 +1,71 @@
+/* =============================================================================
+   JustProtex — custom styles
+   Extracted from the original inline <style> block in index.html.
+   Tailwind (via CDN + js/tailwind-config.js) handles all utility classes;
+   this file only holds things Tailwind's utilities can't express directly:
+   focus rings, the CCTV "REC" blink animation, autofill color overrides,
+   and the reduced-motion override.
+   ============================================================================= */
+
+/* Keyboard focus that reads clearly in both themes */
+:focus-visible { outline: 2px solid #1d4ed8; outline-offset: 2px; }
+.dark :focus-visible { outline-color: #67e8f9; }
+
+/* CCTV-style recording dot */
+@keyframes rec-blink { 0%, 55% { opacity: 1; } 56%, 100% { opacity: .15; } }
+.rec-dot { animation: rec-blink 1.4s steps(1, end) infinite; }
+
+/* Autofill on the dark glass form should not turn fields white */
+.glass-input:-webkit-autofill {
+  -webkit-text-fill-color: #fff;
+  -webkit-box-shadow: 0 0 0 1000px rgba(15, 23, 42, .85) inset;
+  caret-color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  .rec-dot { animation: none; }
+  * { transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}
+
+/* -----------------------------------------------------------------------------
+   Multi-page additions: navigation states and shop filter chips.
+   These use plain CSS (not Tailwind classes) so they work no matter when the
+   Tailwind Play CDN generates its stylesheet. The element+attribute selectors
+   are deliberately more specific than Tailwind's hover: utilities.
+   ----------------------------------------------------------------------------- */
+
+/* Current page in the desktop nav (js/app.js sets aria-current) */
+a.nav-link[aria-current], button.nav-link[aria-current] {
+  color: #1d4ed8;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 8px;
+}
+.dark a.nav-link[aria-current], .dark button.nav-link[aria-current] { color: #67e8f9; }
+
+/* Chevron on the "All Services" toggles (desktop button and mobile accordion) */
+.dd-chevron { transition: transform .2s ease; }
+[aria-expanded="true"] > .dd-chevron { transform: rotate(180deg); }
+
+/* Current item inside the dropdown and the mobile menu */
+a.dd-item[aria-current], a.m-link[aria-current], button.m-link[aria-current] {
+  background: #eff6ff;
+  color: #1d4ed8;
+}
+.dark a.dd-item[aria-current], .dark a.m-link[aria-current], .dark button.m-link[aria-current] {
+  background: rgba(34, 211, 238, .1);
+  color: #67e8f9;
+}
+
+/* Shop category filter chips */
+.chip {
+  border: 1px solid #cbd5e1; background: #fff; color: #334155;
+  border-radius: 9999px; padding: .5rem 1rem; font-size: .875rem; font-weight: 600;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+.chip:hover { background: #f1f5f9; }
+.chip[aria-pressed="true"] { background: #1d4ed8; border-color: #1d4ed8; color: #fff; }
+.dark .chip { border-color: #334155; background: #0f172a; color: #e2e8f0; }
+.dark .chip:hover { background: #1e293b; }
+.dark .chip[aria-pressed="true"] { background: #22d3ee; border-color: #22d3ee; color: #020617; }

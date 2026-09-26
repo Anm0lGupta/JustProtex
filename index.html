@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JustProtex | CCTV, Access Control &amp; Smart Home Security in Gurgaon and Delhi</title>
+  <meta name="description" content="ISO-certified CCTV, IP camera, intercom, access control, biometric and smart home security for homes and businesses in Gurgaon and Delhi. Get a free quote." />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#0B192C" />
+  <meta property="og:title" content="JustProtex | CCTV, Access Control &amp; Smart Home Security in Gurgaon and Delhi" />
+  <meta property="og:description" content="ISO-certified CCTV, IP camera, intercom, access control, biometric and smart home security for homes and businesses in Gurgaon and Delhi. Get a free quote." />
+  <meta property="og:type" content="website" />
+
+  <!-- Apply saved / system theme before first paint to avoid a flash -->
+  <script src="js/theme-init.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Preconnect to the photo CDN so the hero image starts sooner -->
+  <link rel="preconnect" href="https://images.unsplash.com" crossorigin />
+
+  <!-- AOS (Animate On Scroll) styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+  <!-- Tailwind CSS (CDN) with class-based dark mode -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/tailwind-config.js"></script>
+
+  <!-- Custom styles (focus rings, nav states, REC-dot animation, autofill fix, reduced motion) -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Structured data for search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "JustProtex",
+    "description": "CCTV, IP camera, intercom, access control, biometric and smart home security solutions.",
+    "telephone": "+91-9802737371",
+    "email": "sales@justprotex.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "707 A, Vipul Business Park, Sector 48",
+      "addressLocality": "Gurgaon",
+      "addressRegion": "Haryana",
+      "addressCountry": "IN"
+    },
+    "areaServed": [
+      "Gurgaon",
+      "Delhi"
+    ]
+  }
+  </script>
+
+  <noscript>
+    <!-- If JavaScript is off, make sure scroll-animated content is still visible -->
+    <style>[data-aos] { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+</head>
+
+<body data-page="home" class="bg-white font-sans text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-200">
+
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-blue-700 focus:px-4 focus:py-2 focus:text-white">Skip to content</a>
+
+  <!-- =====================================================================
+       SHARED HEADER. Keep identical on every page (only the ../ prefix on
+       links differs for pages inside services/). See README "Keeping the
+       header and footer in sync".
+       ===================================================================== -->
+  <div class="bg-slate-950 text-xs text-slate-300">
+    <div class="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-6 gap-y-1 px-4 py-2 sm:justify-between sm:px-6 lg:px-8">
+      <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1">
+        <a href="tel:+919802737371" class="inline-flex items-center gap-1.5 transition hover:text-white">
+          <i data-lucide="smartphone" class="h-3.5 w-3.5 text-cyan-300"></i>+91 9802737371
+        </a>
+        <a href="tel:+911244145509" class="inline-flex items-center gap-1.5 transition hover:text-white">
+          <i data-lucide="phone" class="h-3.5 w-3.5 text-cyan-300"></i>0124-4145509
+        </a>
+        <a href="mailto:sales@justprotex.com" class="inline-flex items-center gap-1.5 transition hover:text-white">
+          <i data-lucide="mail" class="h-3.5 w-3.5 text-cyan-300"></i>sales@justprotex.com
+        </a>
+      </div>
+      <p class="hidden items-center gap-1.5 sm:inline-flex">
+        <i data-lucide="map-pin" class="h-3.5 w-3.5 text-cyan-300"></i>Serving Gurgaon and Delhi
+      </p>
+    </div>
+  </div>
+
+  <header class="sticky top-0 z-50 border-b border-slate-200/70 bg-white/75 backdrop-blur-xl dark:border-slate-800 dark:bg-slate-950/70">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8" aria-label="Main">
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center gap-2.5" aria-label="JustProtex home">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-blue-700 text-white dark:bg-cyan-400 dark:text-slate-950">
+          <i data-lucide="shield-check" class="h-5 w-5"></i>
+        </span>
+        <span class="text-xl font-extrabold tracking-tight text-slate-900 dark:text-white">JustProtex</span>
+      </a>
+
+      <!-- Desktop links. data-nav / data-nav-service are read by js/app.js to mark the current page. -->
+      <ul class="hidden items-center gap-8 text-sm font-medium text-slate-600 dark:text-slate-300 lg:flex">
+        <li><a class="nav-link transition hover:text-blue-700 dark:hover:text-cyan-300" data-nav="home" href="index.html">Home</a></li>
+        <li><a class="nav-link transition hover:text-blue-700 dark:hover:text-cyan-300" data-nav="about" href="about.html">About Us</a></li>
+        <li class="relative" data-dropdown>
+          <button type="button" id="services-toggle" data-dropdown-toggle data-nav="services" aria-expanded="false" aria-controls="services-menu"
+            class="nav-link transition hover:text-blue-700 dark:hover:text-cyan-300 inline-flex items-center gap-1">
+            All Services<i data-lucide="chevron-down" class="dd-chevron h-4 w-4"></i>
+          </button>
+          <div id="services-menu" class="absolute left-1/2 top-full z-50 hidden w-80 -translate-x-1/2 pt-3">
+            <ul class="rounded-2xl border border-slate-200 bg-white p-2 shadow-2xl dark:border-slate-700 dark:bg-slate-900">
+            <li>
+              <a href="services/access-control.html" data-nav-service="access-control" class="dd-item flex items-start gap-3 rounded-xl px-3 py-2.5 text-slate-700 transition hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
+                <span class="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700 dark:bg-cyan-400/10 dark:text-cyan-300"><i data-lucide="key-round" class="h-5 w-5"></i></span>
+                <span><span class="block text-sm font-semibold">Access Control System</span><span class="block text-xs font-normal text-slate-500 dark:text-slate-400">Doors, cards and entry logs</span></span>
+              </a>
+            </li>
+            <li>
+              <a href="services/cctv-installation.html" data-nav-service="cctv-installation" class="dd-item flex items-start gap-3 rounded-xl px-3 py-2.5 text-slate-700 transition hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
+                <span class="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700 dark:bg-cyan-400/10 dark:text-cyan-300"><i data-lucide="cctv" class="h-5 w-5"></i></span>
+                <span><span class="block text-sm font-semibold">CCTV Installation</span><span class="block text-xs font-normal text-slate-500 dark:text-slate-400">IP and HD cameras, recorders</span></span>
+              </a>
+            </li>
+            <li>
+              <a href="services/biometric-installation.html" data-nav-service="biometric-installation" class="dd-item flex items-start gap-3 rounded-xl px-3 py-2.5 text-slate-700 transition hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
+                <span class="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700 dark:bg-cyan-400/10 dark:text-cyan-300"><i data-lucide="fingerprint" class="h-5 w-5"></i></span>
+                <span><span class="block text-sm font-semibold">Biometric Installation</span><span class="block text-xs font-normal text-slate-500 dark:text-slate-400">Fingerprint and face recognition</span></span>
+              </a>
+            </li>
+            <li>
+              <a href="services/home-automation.html" data-nav-service="home-automation" class="dd-item flex items-start gap-3 rounded-xl px-3 py-2.5 text-slate-700 transition hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
+                <span class="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700 dark:bg-cyan-400/10 dark:text-cyan-300"><i data-lucide="home" class="h-5 w-5"></i></span>
+                <span><span class="block text-sm font-semibold">Home Automation</span><span class="block text-xs font-normal text-slate-500 dark:text-slate-400">Lights, locks, sensors, scenes</span></span>
+              </a>
+            </li>
+            <li>
+              <a href="services/epabx-installation.html" data-nav-service="epabx-installation" class="dd-item flex items-start gap-3 rounded-xl px-3 py-2.5 text-slate-700 transition hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
+                <span class="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700 dark:bg-cyan-400/10 dark:text-cyan-300"><i data-lucide="phone-call" class="h-5 w-5"></i></span>
+                <span><span class="block text-sm font-semibold">EPABX Installation</span><span class="block text-xs font-normal text-slate-500 dark:text-slate-400">Office phones and intercoms</span></span>
+              </a>
+            </li>
+            <li>
+              <a href="services/boom-barrier.html" data-nav-service="boom-barrier" class="dd-item flex items-start gap-3 rounded-xl px-3 py-2.5 text-slate-700 transition hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800">
+                <span class="mt-0.5 inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-700 dark:bg-cyan-400/10 dark:text-cyan-300"><i data-lucide="car" class="h-5 w-5"></i></span>
+                <span><span class="block text-sm font-semibold">Boom Barrier</span><span class="block text-xs font-normal text-slate-500 dark:text-slate-400">Gate and vehicle entry control</span></span>
+              </a>
+            </li>
+              <li class="mt-1 border-t border-slate-200 pt-1 dark:border-slate-700">
+                <a href="services/index.html" data-nav-service="index" class="dd-item flex items-center justify-between rounded-xl px-3 py-2.5 text-sm font-semibold text-blue-700 transition hover:bg-slate-100 dark:text-cyan-300 dark:hover:bg-slate-800">View all services<i data-lucide="chevron-right" class="h-4 w-4"></i></a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li><a class="nav-link transition hover:text-blue-700 dark:hover:text-cyan-300" data-nav="shop" href="shop.html">Shop</a></li>
+        <li><a class="nav-link transition hover:text-blue-700 dark:hover:text-cyan-300" data-nav="why" href="why-choose-us.html">Why Choose Us</a></li>
+        <li><a class="nav-link transition hover:text-blue-700 dark:hover:text-cyan-300" data-nav="contact" href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Light / dark toggle -->
+        <button id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false"
+          class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800">
+          <i data-lucide="moon" class="h-5 w-5 dark:hidden"></i>
+          <i data-lucide="sun" class="hidden h-5 w-5 dark:block"></i>
+        </button>
+
+        <a href="contact.html#quote" data-quote-link
+          class="hidden rounded-full bg-blue-700 px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-blue-800 hover:shadow-md sm:inline-flex dark:bg-cyan-400 dark:text-slate-950 dark:hover:bg-cyan-300">
+          Get a Free Quote
+        </a>
+
+        <!-- Mobile hamburger -->
+        <button id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"
+          class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-slate-200 text-slate-700 transition hover:bg-slate-100 lg:hidden dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800">
+          <i data-lucide="menu" class="menu-open h-5 w-5"></i>
+          <i data-lucide="x" class="menu-close hidden h-5 w-5"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile menu panel: "All Services" expands as an accordion -->
+    <div id="mobile-menu" class="hidden max-h-[calc(100vh-7rem)] overflow-y-auto border-t border-slate-200 bg-white/95 backdrop-blur-xl lg:hidden dark:border-slate-800 dark:bg-slate-950/95">
+      <ul class="mx-auto flex max-w-7xl flex-col px-4 py-3 text-base font-medium sm:px-6">
+        <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800" data-nav="home" href="index.html">Home</a></li>
+        <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800" data-nav="about" href="about.html">About Us</a></li>
+        <li>
+          <button type="button" data-accordion-toggle data-nav="services" aria-expanded="false" aria-controls="m-services"
+            class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex w-full items-center justify-between text-left">
+            All Services<i data-lucide="chevron-down" class="dd-chevron h-5 w-5"></i>
+          </button>
+          <ul id="m-services" class="mb-1 ml-4 hidden border-l-2 border-slate-200 pl-2 dark:border-slate-700">
+          <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-3 text-base" href="services/access-control.html" data-nav-service="access-control"><i data-lucide="key-round" class="h-4 w-4 shrink-0 text-blue-700 dark:text-cyan-300"></i>Access Control System</a></li>
+          <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-3 text-base" href="services/cctv-installation.html" data-nav-service="cctv-installation"><i data-lucide="cctv" class="h-4 w-4 shrink-0 text-blue-700 dark:text-cyan-300"></i>CCTV Installation</a></li>
+          <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-3 text-base" href="services/biometric-installation.html" data-nav-service="biometric-installation"><i data-lucide="fingerprint" class="h-4 w-4 shrink-0 text-blue-700 dark:text-cyan-300"></i>Biometric Installation</a></li>
+          <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-3 text-base" href="services/home-automation.html" data-nav-service="home-automation"><i data-lucide="home" class="h-4 w-4 shrink-0 text-blue-700 dark:text-cyan-300"></i>Home Automation</a></li>
+          <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-3 text-base" href="services/epabx-installation.html" data-nav-service="epabx-installation"><i data-lucide="phone-call" class="h-4 w-4 shrink-0 text-blue-700 dark:text-cyan-300"></i>EPABX Installation</a></li>
+          <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center gap-3 text-base" href="services/boom-barrier.html" data-nav-service="boom-barrier"><i data-lucide="car" class="h-4 w-4 shrink-0 text-blue-700 dark:text-cyan-300"></i>Boom Barrier</a></li>
+            <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800 flex items-center justify-between text-base font-semibold text-blue-700 dark:text-cyan-300" href="services/index.html" data-nav-service="index">View all services<i data-lucide="chevron-right" class="h-4 w-4"></i></a></li>
+          </ul>
+        </li>
+        <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800" data-nav="shop" href="shop.html">Shop</a></li>
+        <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800" data-nav="why" href="why-choose-us.html">Why Choose Us</a></li>
+        <li><a class="m-link block rounded-lg px-3 py-3 hover:bg-slate-100 dark:hover:bg-slate-800" data-nav="contact" href="contact.html">Contact</a></li>
+        <li class="pt-2 pb-2">
+          <a href="contact.html#quote" data-quote-link class="flex justify-center rounded-full bg-blue-700 px-5 py-3 font-semibold text-white dark:bg-cyan-400 dark:text-slate-950">Get a Free Quote</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================================
+         2. HERO
+         ===================================================================== -->
+    <section id="top" class="relative isolate overflow-hidden bg-slate-950 text-white">
+      <!-- Background photo: modern data centre (served up to 4K on large screens) -->
+      <img
+        src="https://images.unsplash.com/photo-1784652852605-6945598f2af3?auto=format&fit=crop&w=1600&q=70"
+        srcset="https://images.unsplash.com/photo-1784652852605-6945598f2af3?auto=format&fit=crop&w=960&q=70 960w,
+                https://images.unsplash.com/photo-1784652852605-6945598f2af3?auto=format&fit=crop&w=1600&q=70 1600w,
+                https://images.unsplash.com/photo-1784652852605-6945598f2af3?auto=format&fit=crop&w=2560&q=70 2560w,
+                https://images.unsplash.com/photo-1784652852605-6945598f2af3?auto=format&fit=crop&w=3840&q=70 3840w"
+        sizes="100vw" alt="" fetchpriority="high" decoding="async" data-fallback
+        class="absolute inset-0 -z-20 h-full w-full object-cover" />
+      <!-- Dark gradient overlay keeps text legible over any photo -->
+      <div class="absolute inset-0 -z-10 bg-gradient-to-br from-slate-950/95 via-slate-950/85 to-blue-950/70"></div>
+
+      <!-- Viewfinder corners -->
+      <span aria-hidden="true" class="pointer-events-none absolute left-4 top-4 h-6 w-6 border-l-2 border-t-2 border-white/40 sm:left-8 sm:top-8"></span>
+      <span aria-hidden="true" class="pointer-events-none absolute right-4 top-4 h-6 w-6 border-r-2 border-t-2 border-white/40 sm:right-8 sm:top-8"></span>
+      <span aria-hidden="true" class="pointer-events-none absolute bottom-4 left-4 h-6 w-6 border-b-2 border-l-2 border-white/40 sm:bottom-8 sm:left-8"></span>
+      <span aria-hidden="true" class="pointer-events-none absolute bottom-4 right-4 h-6 w-6 border-b-2 border-r-2 border-white/40 sm:bottom-8 sm:right-8"></span>
+
+      <!-- On-screen display, like a live camera feed -->
+      <p aria-hidden="true" class="pointer-events-none absolute bottom-6 left-10 hidden items-center gap-2 text-xs font-medium tabular-nums text-white/70 sm:flex sm:bottom-10 sm:left-14">
+        <span class="rec-dot inline-block h-2 w-2 rounded-full bg-red-500"></span>
+        REC &nbsp;CAM 01 &nbsp;<span id="osd-time"></span>
+      </p>
+
+      <div class="mx-auto grid max-w-7xl items-center gap-12 px-4 pb-24 pt-14 sm:px-6 lg:grid-cols-12 lg:gap-10 lg:px-8 lg:pb-28 lg:pt-20">
+
+        <!-- Left column: slides in from the left -->
+        <div class="lg:col-span-7" data-aos="fade-right" data-aos-duration="900">
+          <span class="inline-flex items-center gap-2 rounded-full border border-cyan-300/30 bg-cyan-300/10 px-4 py-1.5 text-sm font-medium text-cyan-200">
+            <i data-lucide="award" class="h-4 w-4"></i>Award-Winning AI-Enabled Security
+          </span>
+
+          <h1 class="mt-6 max-w-2xl text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
+            Know what's happening at your property, any hour of the day.
+          </h1>
+
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-300">
+            JustProtex designs, installs and maintains AI-enabled CCTV, access control and smart home security for homes, offices and industrial sites across Gurgaon and Delhi.
+          </p>
+
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#quote" class="inline-flex items-center rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300">Get a Free Quote</a>
+            <a href="#services" class="inline-flex items-center rounded-full border border-white/25 px-6 py-3 font-semibold text-white transition hover:bg-white/10">See our services</a>
+          </div>
+
+          <!-- Key metrics -->
+          <dl class="mt-12 grid max-w-2xl grid-cols-2 gap-3 sm:grid-cols-4">
+            <div class="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <i data-lucide="badge-check" class="h-5 w-5 text-emerald-400"></i>
+              <dt class="sr-only">Certification</dt>
+              <dd class="mt-2 text-xl font-bold">ISO</dd>
+              <dd class="text-sm text-slate-300">Certified</dd>
+            </div>
+            <div class="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <i data-lucide="users" class="h-5 w-5 text-emerald-400"></i>
+              <dt class="sr-only">Clients</dt>
+              <dd class="mt-2 text-xl font-bold">1,000+</dd>
+              <dd class="text-sm text-slate-300">Happy Clients</dd>
+            </div>
+            <div class="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <i data-lucide="headphones" class="h-5 w-5 text-emerald-400"></i>
+              <dt class="sr-only">Support</dt>
+              <dd class="mt-2 text-xl font-bold">24/7</dd>
+              <dd class="text-sm text-slate-300">Support</dd>
+            </div>
+            <div class="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur">
+              <i data-lucide="folder-check" class="h-5 w-5 text-emerald-400"></i>
+              <dt class="sr-only">Projects</dt>
+              <dd class="mt-2 text-xl font-bold">4,500+</dd>
+              <dd class="text-sm text-slate-300">Projects</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- Right column: lead form rises from the bottom -->
+        <div class="lg:col-span-5" data-aos="fade-up" data-aos-duration="900" data-aos-delay="150">
+          <div id="quote" class="scroll-mt-28 rounded-3xl border border-white/20 bg-white/10 p-6 shadow-2xl backdrop-blur-xl sm:p-8">
+            <div id="lead-form-wrap">
+              <h2 class="text-2xl font-bold">Get a free security quote</h2>
+              <p class="mt-2 text-sm text-slate-300">Tell us what you need to protect. We'll recommend a system and send you a price.</p>
+
+              <form id="lead-form" class="mt-6 space-y-4" novalidate>
+                <!-- Honeypot: real visitors never see or fill this -->
+                <div class="hidden" aria-hidden="true">
+                  <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+                </div>
+
+                <div>
+                  <label for="f-name" class="mb-1.5 block text-sm font-medium text-slate-200">Full name</label>
+                  <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="err-name"
+                    class="glass-input w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder-white/50 outline-none transition focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/40"
+                    placeholder="Your name" />
+                  <p id="err-name" class="mt-1 hidden text-xs text-rose-300"></p>
+                </div>
+
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label for="f-phone" class="mb-1.5 block text-sm font-medium text-slate-200">Phone</label>
+                    <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="err-phone"
+                      class="glass-input w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder-white/50 outline-none transition focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/40"
+                      placeholder="98XXXXXXXX" />
+                    <p id="err-phone" class="mt-1 hidden text-xs text-rose-300"></p>
+                  </div>
+                  <div>
+                    <label for="f-email" class="mb-1.5 block text-sm font-medium text-slate-200">Email</label>
+                    <input id="f-email" name="email" type="email" autocomplete="email" required aria-describedby="err-email"
+                      class="glass-input w-full rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder-white/50 outline-none transition focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/40"
+                      placeholder="you@company.com" />
+                    <p id="err-email" class="mt-1 hidden text-xs text-rose-300"></p>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="f-req" class="mb-1.5 block text-sm font-medium text-slate-200">Requirements <span class="font-normal text-slate-400">(optional)</span></label>
+                  <textarea id="f-req" name="requirements" rows="3"
+                    class="glass-input w-full resize-none rounded-xl border border-white/20 bg-white/10 px-4 py-3 text-white placeholder-white/50 outline-none transition focus:border-cyan-300 focus:ring-2 focus:ring-cyan-300/40"
+                    placeholder="e.g. 16 cameras for a two-floor office"></textarea>
+                </div>
+
+                <p id="form-error" role="alert" class="hidden rounded-lg bg-rose-500/15 px-3 py-2 text-sm text-rose-200"></p>
+
+                <button id="submit-btn" type="submit"
+                  class="flex w-full items-center justify-center gap-2 rounded-xl bg-cyan-400 px-6 py-3.5 font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition hover:scale-[1.02] hover:bg-cyan-300 hover:shadow-xl disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:scale-100">
+                  <span id="submit-label">Request my free quote</span>
+                </button>
+
+                <p class="text-center text-xs text-slate-400">We only use your details to respond to this request.</p>
+              </form>
+            </div>
+
+            <!-- Success state, shown after a valid submit -->
+            <div id="lead-success" class="hidden text-center" role="status" aria-live="polite" tabindex="-1">
+              <span class="mx-auto inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-400/15 text-emerald-300">
+                <i data-lucide="circle-check" class="h-8 w-8"></i>
+              </span>
+              <h2 class="mt-4 text-2xl font-bold">Request received</h2>
+              <p id="lead-success-msg" class="mt-2 text-sm text-slate-300"></p>
+              <button id="lead-reset" type="button" class="mt-6 rounded-full border border-white/25 px-5 py-2 text-sm font-semibold transition hover:bg-white/10">Send another request</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         3. SERVICES (teaser: each card links to its own page under services/)
+         ===================================================================== -->
+    <section id="services" class="scroll-mt-16 bg-slate-50 py-20 sm:py-24 dark:bg-[#0B192C]">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-6 lg:grid-cols-2 lg:items-end" data-aos="fade-up">
+          <h2 class="max-w-xl text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl dark:text-white">
+            Security systems for every door, floor and gate
+          </h2>
+          <p class="max-w-xl text-lg text-slate-600 dark:text-slate-400">
+            From a single-family home to a multi-site business, we plan, install and support the full system, so one team is accountable for it working.
+          </p>
+        </div>
+
+        <div class="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+          <!-- Card wrappers carry the scroll animation; the article carries the hover motion (the two would otherwise fight over "transform") -->
+          <div data-aos="fade-up" data-aos-delay="0">
+            <article class="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur dark:hover:border-cyan-400/40 dark:hover:shadow-cyan-500/10">
+              <div class="relative h-44 overflow-hidden bg-gradient-to-br from-blue-700 to-slate-900">
+                <img src="https://images.unsplash.com/photo-1754494977436-a5c202306fe4?auto=format&fit=crop&w=900&q=75" alt="A card reader mounted beside a dark door" loading="lazy" decoding="async" data-fallback class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <span class="-mt-12 mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg ring-4 ring-white dark:bg-cyan-400 dark:text-slate-950 dark:ring-slate-900"><i data-lucide="key-round" class="h-6 w-6"></i></span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white"><a href="services/access-control.html" class="transition hover:text-blue-700 dark:hover:text-cyan-300">Access Control System</a></h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Card, PIN, fingerprint and mobile door control with a full entry log, for offices, warehouses and residential societies.</p>
+                <div class="mt-5 flex items-center justify-between gap-4">
+                  <a href="services/access-control.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">Learn more<i data-lucide="chevron-right" class="h-4 w-4 transition group-hover:translate-x-0.5"></i></a>
+                  <a href="#quote" data-service="Access Control System" class="text-sm font-medium text-slate-600 underline-offset-4 hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white">Get a quote</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="100">
+            <article class="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur dark:hover:border-cyan-400/40 dark:hover:shadow-cyan-500/10">
+              <div class="relative h-44 overflow-hidden bg-gradient-to-br from-blue-700 to-slate-900">
+                <img src="https://images.unsplash.com/photo-1589935447067-5531094415d1?auto=format&fit=crop&w=900&q=75" alt="Two white security cameras mounted on a pole against a clear blue sky" loading="lazy" decoding="async" data-fallback class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <span class="-mt-12 mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg ring-4 ring-white dark:bg-cyan-400 dark:text-slate-950 dark:ring-slate-900"><i data-lucide="cctv" class="h-6 w-6"></i></span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white"><a href="services/cctv-installation.html" class="transition hover:text-blue-700 dark:hover:text-cyan-300">CCTV Installation</a></h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Wired and wireless camera systems planned around your entrances, blind spots and lighting, with recorders sized for the footage you need to keep.</p>
+                <div class="mt-5 flex items-center justify-between gap-4">
+                  <a href="services/cctv-installation.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">Learn more<i data-lucide="chevron-right" class="h-4 w-4 transition group-hover:translate-x-0.5"></i></a>
+                  <a href="#quote" data-service="CCTV Installation" class="text-sm font-medium text-slate-600 underline-offset-4 hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white">Get a quote</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="200">
+            <article class="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur dark:hover:border-cyan-400/40 dark:hover:shadow-cyan-500/10">
+              <div class="relative h-44 overflow-hidden bg-gradient-to-br from-blue-700 to-slate-900">
+                <img src="https://images.unsplash.com/photo-1697382608786-bcf4c113b86e?auto=format&fit=crop&w=900&q=75" alt="A keypad entry unit mounted on a wall" loading="lazy" decoding="async" data-fallback class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <span class="-mt-12 mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg ring-4 ring-white dark:bg-cyan-400 dark:text-slate-950 dark:ring-slate-900"><i data-lucide="fingerprint" class="h-6 w-6"></i></span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white"><a href="services/biometric-installation.html" class="transition hover:text-blue-700 dark:hover:text-cyan-300">Biometric Installation</a></h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Fingerprint and face-recognition readers for attendance and restricted areas, linked to individual staff records.</p>
+                <div class="mt-5 flex items-center justify-between gap-4">
+                  <a href="services/biometric-installation.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">Learn more<i data-lucide="chevron-right" class="h-4 w-4 transition group-hover:translate-x-0.5"></i></a>
+                  <a href="#quote" data-service="Biometric Installation" class="text-sm font-medium text-slate-600 underline-offset-4 hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white">Get a quote</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="0">
+            <article class="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur dark:hover:border-cyan-400/40 dark:hover:shadow-cyan-500/10">
+              <div class="relative h-44 overflow-hidden bg-gradient-to-br from-blue-700 to-slate-900">
+                <img src="https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?auto=format&fit=crop&w=900&q=75" alt="A smart thermostat mounted on a wall" loading="lazy" decoding="async" data-fallback class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <span class="-mt-12 mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg ring-4 ring-white dark:bg-cyan-400 dark:text-slate-950 dark:ring-slate-900"><i data-lucide="home" class="h-6 w-6"></i></span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white"><a href="services/home-automation.html" class="transition hover:text-blue-700 dark:hover:text-cyan-300">Home Automation</a></h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Lights, locks, sensors and cameras working together from one app, with routines that run on their own.</p>
+                <div class="mt-5 flex items-center justify-between gap-4">
+                  <a href="services/home-automation.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">Learn more<i data-lucide="chevron-right" class="h-4 w-4 transition group-hover:translate-x-0.5"></i></a>
+                  <a href="#quote" data-service="Home Automation" class="text-sm font-medium text-slate-600 underline-offset-4 hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white">Get a quote</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="100">
+            <article class="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur dark:hover:border-cyan-400/40 dark:hover:shadow-cyan-500/10">
+              <div class="relative h-44 overflow-hidden bg-gradient-to-br from-blue-700 to-slate-900">
+                <i data-lucide="phone-call" aria-hidden="true" class="absolute right-5 top-5 h-24 w-24 text-white/15"></i>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <span class="-mt-12 mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg ring-4 ring-white dark:bg-cyan-400 dark:text-slate-950 dark:ring-slate-900"><i data-lucide="phone-call" class="h-6 w-6"></i></span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white"><a href="services/epabx-installation.html" class="transition hover:text-blue-700 dark:hover:text-cyan-300">EPABX Installation</a></h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Office phone systems and intercoms with extensions, auto-attendant and call routing, sized for your team and easy to expand.</p>
+                <div class="mt-5 flex items-center justify-between gap-4">
+                  <a href="services/epabx-installation.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">Learn more<i data-lucide="chevron-right" class="h-4 w-4 transition group-hover:translate-x-0.5"></i></a>
+                  <a href="#quote" data-service="EPABX Installation" class="text-sm font-medium text-slate-600 underline-offset-4 hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white">Get a quote</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div data-aos="fade-up" data-aos-delay="200">
+            <article class="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-900/5 transition duration-300 hover:-translate-y-2 hover:shadow-2xl dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur dark:hover:border-cyan-400/40 dark:hover:shadow-cyan-500/10">
+              <div class="relative h-44 overflow-hidden bg-gradient-to-br from-blue-700 to-slate-900">
+                <i data-lucide="car" aria-hidden="true" class="absolute right-5 top-5 h-24 w-24 text-white/15"></i>
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950/50 to-transparent"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-6">
+                <span class="-mt-12 mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-blue-700 text-white shadow-lg ring-4 ring-white dark:bg-cyan-400 dark:text-slate-950 dark:ring-slate-900"><i data-lucide="car" class="h-6 w-6"></i></span>
+                <h3 class="text-lg font-bold text-slate-900 dark:text-white"><a href="services/boom-barrier.html" class="transition hover:text-blue-700 dark:hover:text-cyan-300">Boom Barrier</a></h3>
+                <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-600 dark:text-slate-400">Automatic barriers that control vehicle entry at gates, with optional RFID, ticketing and number-plate integration.</p>
+                <div class="mt-5 flex items-center justify-between gap-4">
+                  <a href="services/boom-barrier.html" class="inline-flex items-center gap-1 text-sm font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">Learn more<i data-lucide="chevron-right" class="h-4 w-4 transition group-hover:translate-x-0.5"></i></a>
+                  <a href="#quote" data-service="Boom Barrier" class="text-sm font-medium text-slate-600 underline-offset-4 hover:text-slate-900 hover:underline dark:text-slate-400 dark:hover:text-white">Get a quote</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+        </div>
+
+        <div class="mt-12 flex justify-center" data-aos="fade-up">
+          <a href="services/index.html" class="inline-flex items-center justify-center rounded-full bg-blue-700 px-6 py-3 font-semibold text-white shadow-sm transition hover:bg-blue-800 hover:shadow-md dark:bg-cyan-400 dark:text-slate-950 dark:hover:bg-cyan-300">View all services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         4. WHY CHOOSE US (alternating image / text)
+         ===================================================================== -->
+    <section id="why-us" class="scroll-mt-16 overflow-hidden bg-white py-20 sm:py-24 dark:bg-slate-950">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-wrap items-end justify-between gap-4" data-aos="fade-up">
+          <h2 class="max-w-2xl text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl dark:text-white">
+            Why homes and businesses choose JustProtex
+          </h2>
+          <a href="why-choose-us.html" class="inline-flex items-center gap-1 font-semibold text-blue-700 hover:text-blue-900 dark:text-cyan-300 dark:hover:text-cyan-200">See what sets us apart<i data-lucide="chevron-right" class="h-4 w-4"></i></a>
+        </div>
+
+        <!-- Block 1: image left, text right -->
+        <div class="mt-16 grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          <div class="relative" data-aos="fade-right">
+            <div class="overflow-hidden rounded-3xl bg-gradient-to-br from-blue-700 to-slate-900 shadow-xl dark:ring-1 dark:ring-slate-800">
+              <img
+                src="https://images.unsplash.com/photo-1785682117346-4b114502e9b8?auto=format&fit=crop&w=1200&q=75"
+                srcset="https://images.unsplash.com/photo-1785682117346-4b114502e9b8?auto=format&fit=crop&w=800&q=75 800w,
+                        https://images.unsplash.com/photo-1785682117346-4b114502e9b8?auto=format&fit=crop&w=1200&q=75 1200w,
+                        https://images.unsplash.com/photo-1785682117346-4b114502e9b8?auto=format&fit=crop&w=1800&q=75 1800w"
+                sizes="(min-width: 1024px) 560px, 100vw"
+                alt="A JustProtex technician working on a server rack" loading="lazy" decoding="async" data-fallback
+                class="aspect-[4/3] w-full object-cover" />
+            </div>
+            <div class="absolute -bottom-6 left-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+              <p class="text-2xl font-extrabold text-blue-700 dark:text-cyan-300">4,500+</p>
+              <p class="text-sm text-slate-600 dark:text-slate-400">projects delivered</p>
+            </div>
+          </div>
+
+          <div data-aos="fade-left">
+            <h3 class="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">Residential and commercial security, built by certified engineers</h3>
+            <p class="mt-4 max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+              We design each system around how your property is really used: the number of entrances, who needs access after hours, and what you need to see. Our own engineers then install it, so you deal with one team from survey to sign-off.
+            </p>
+            <ul class="mt-8 space-y-6">
+              <li class="flex gap-4">
+                <span class="mt-0.5 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300"><i data-lucide="shield-check" class="h-5 w-5"></i></span>
+                <div>
+                  <h4 class="font-semibold text-slate-900 dark:text-white">Fully licensed and insured</h4>
+                  <p class="mt-1 text-slate-600 dark:text-slate-400">Licensed engineers and insured work on every site, residential or commercial.</p>
+                </div>
+              </li>
+              <li class="flex gap-4">
+                <span class="mt-0.5 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300"><i data-lucide="badge-check" class="h-5 w-5"></i></span>
+                <div>
+                  <h4 class="font-semibold text-slate-900 dark:text-white">ISO certified</h4>
+                  <p class="mt-1 text-slate-600 dark:text-slate-400">Certified processes mean the quality of your installation doesn't depend on who turns up.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Block 2: text left, image right -->
+        <div class="mt-24 grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          <div class="order-2 lg:order-1" data-aos="fade-right">
+            <h3 class="text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl dark:text-white">Support that continues long after installation</h3>
+            <p class="mt-4 max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+              A security system only counts when it's working. We keep gaps in coverage short and make sure you can always reach someone who can fix a problem.
+            </p>
+            <ul class="mt-8 space-y-6">
+              <li class="flex gap-4">
+                <span class="mt-0.5 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300"><i data-lucide="refresh-cw" class="h-5 w-5"></i></span>
+                <div>
+                  <h4 class="font-semibold text-slate-900 dark:text-white">Same-day replacement</h4>
+                  <p class="mt-1 text-slate-600 dark:text-slate-400">Faulty equipment is replaced the same day, so your property isn't left exposed.</p>
+                </div>
+              </li>
+              <li class="flex gap-4">
+                <span class="mt-0.5 inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300"><i data-lucide="headphones" class="h-5 w-5"></i></span>
+                <div>
+                  <h4 class="font-semibold text-slate-900 dark:text-white">24/7 helpdesk</h4>
+                  <p class="mt-1 text-slate-600 dark:text-slate-400">Call or message our helpdesk at any hour, including nights and holidays.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="relative order-1 lg:order-2" data-aos="fade-left">
+            <div class="overflow-hidden rounded-3xl bg-gradient-to-br from-blue-700 to-slate-900 shadow-xl dark:ring-1 dark:ring-slate-800">
+              <img
+                src="https://images.unsplash.com/photo-1514803400321-3ca29fc47334?auto=format&fit=crop&w=1200&q=75"
+                srcset="https://images.unsplash.com/photo-1514803400321-3ca29fc47334?auto=format&fit=crop&w=800&q=75 800w,
+                        https://images.unsplash.com/photo-1514803400321-3ca29fc47334?auto=format&fit=crop&w=1200&q=75 1200w,
+                        https://images.unsplash.com/photo-1514803400321-3ca29fc47334?auto=format&fit=crop&w=1800&q=75 1800w"
+                sizes="(min-width: 1024px) 560px, 100vw"
+                alt="A modern home lit up at night beside a pool" loading="lazy" decoding="async" data-fallback
+                class="aspect-[4/3] w-full object-cover" />
+            </div>
+            <div class="absolute -bottom-6 right-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-xl dark:border-slate-800 dark:bg-slate-900">
+              <p class="text-2xl font-extrabold text-blue-700 dark:text-cyan-300">24/7</p>
+              <p class="text-sm text-slate-600 dark:text-slate-400">helpdesk support</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         5. MOBILE APP CTA BANNER
+         ===================================================================== -->
+    <section id="app" class="scroll-mt-16 bg-white pb-20 sm:pb-24 dark:bg-slate-950">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-blue-700 via-blue-800 to-indigo-900 text-white shadow-2xl dark:border dark:border-indigo-500/20 dark:from-indigo-950 dark:via-[#0B192C] dark:to-slate-900">
+          <!-- soft glow -->
+          <div aria-hidden="true" class="pointer-events-none absolute -right-20 -top-20 h-80 w-80 rounded-full bg-cyan-400/20 blur-3xl"></div>
+
+          <div class="grid items-center gap-10 px-6 py-14 sm:px-12 lg:grid-cols-2 lg:px-16 lg:py-0">
+            <div data-aos="fade-up">
+              <h2 class="max-w-lg text-3xl font-extrabold tracking-tight sm:text-4xl">Watch over your property from your phone</h2>
+              <p class="mt-4 max-w-lg text-lg text-blue-100 dark:text-slate-300">
+                Check live camera feeds, replay recordings and get motion alerts wherever you are, on iPhone or Android.
+              </p>
+              <ul class="mt-6 grid max-w-lg gap-3 text-blue-50 sm:grid-cols-2 dark:text-slate-200">
+                <li class="flex items-center gap-2"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-emerald-300"></i>Live view on every camera</li>
+                <li class="flex items-center gap-2"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-emerald-300"></i>Instant motion alerts</li>
+                <li class="flex items-center gap-2"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-emerald-300"></i>Playback by date and time</li>
+                <li class="flex items-center gap-2"><i data-lucide="circle-check" class="h-5 w-5 shrink-0 text-emerald-300"></i>Share access with family or staff</li>
+              </ul>
+
+              <!-- Store buttons: replace the "#" links with your real listings -->
+              <div class="mt-8 flex flex-wrap gap-3">
+                <a href="#" aria-label="Download on the App Store"
+                  class="inline-flex items-center gap-3 rounded-full border border-white/25 bg-black px-5 py-2.5 text-white transition hover:scale-105 hover:border-white/50">
+                  <svg viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>
+                  <span class="text-left leading-tight"><span class="block text-[10px]">Download on the</span><span class="block text-lg font-semibold">App Store</span></span>
+                </a>
+                <a href="#" aria-label="Get it on Google Play"
+                  class="inline-flex items-center gap-3 rounded-full border border-white/25 bg-black px-5 py-2.5 text-white transition hover:scale-105 hover:border-white/50">
+                  <svg viewBox="0 0 24 24" class="h-7 w-7" aria-hidden="true">
+                    <polygon points="3.6,2.3 13.4,12 3.6,21.7" fill="#00A0FF"/>
+                    <polygon points="3.6,2.3 16.7,9.8 13.4,12" fill="#00E676"/>
+                    <polygon points="16.7,9.8 20.6,12 16.7,14.2 13.4,12" fill="#FFC400"/>
+                    <polygon points="13.4,12 16.7,14.2 3.6,21.7" fill="#FF3D00"/>
+                  </svg>
+                  <span class="text-left leading-tight"><span class="block text-[10px] uppercase">Get it on</span><span class="block text-lg font-semibold">Google Play</span></span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Phone mockup slides in from the right -->
+            <div class="flex justify-center pb-4 lg:justify-end lg:pt-16" data-aos="fade-left" data-aos-duration="1000">
+              <div class="relative w-[15.5rem] rotate-3 sm:w-[17rem]">
+                <div class="rounded-[2.6rem] border-[10px] border-slate-900 bg-slate-900 shadow-2xl ring-1 ring-white/20">
+                  <div class="relative aspect-[9/19] overflow-hidden rounded-[2rem] bg-gradient-to-b from-slate-700 to-slate-900">
+                    <img src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?auto=format&fit=crop&w=700&q=75" alt="Live camera view of a two-storey house shown on the JustProtex app" loading="lazy" decoding="async" data-fallback class="absolute inset-0 h-full w-full object-cover" />
+                    <div class="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/75"></div>
+                    <div class="absolute left-1/2 top-2 h-5 w-20 -translate-x-1/2 rounded-full bg-black"></div>
+                    <div class="absolute inset-x-4 top-11 flex items-center justify-between text-[11px] font-semibold text-white">
+                      <span>Front gate</span>
+                      <span class="inline-flex items-center gap-1"><span class="rec-dot inline-block h-1.5 w-1.5 rounded-full bg-red-500"></span>LIVE</span>
+                    </div>
+                    <div class="absolute inset-x-6 bottom-6 flex items-center justify-between">
+                      <span class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur"><i data-lucide="mic" class="h-5 w-5"></i></span>
+                      <span class="inline-flex h-14 w-14 items-center justify-center rounded-full bg-white text-slate-900"><i data-lucide="camera" class="h-6 w-6"></i></span>
+                      <span class="inline-flex h-11 w-11 items-center justify-center rounded-full bg-white/15 text-white backdrop-blur"><i data-lucide="lock" class="h-5 w-5"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <!-- Notification chip -->
+                <div class="absolute -left-4 top-28 hidden items-center gap-3 rounded-2xl bg-white/95 p-3 pr-4 text-slate-900 shadow-xl sm:flex lg:-left-12 dark:bg-slate-900/95 dark:text-white">
+                  <span class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-amber-100 text-amber-700"><i data-lucide="bell-ring" class="h-4 w-4"></i></span>
+                  <span class="text-xs leading-tight"><span class="block font-semibold">Motion detected</span><span class="text-slate-500 dark:text-slate-400">Driveway, just now</span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         6. TESTIMONIALS (carousel)
+         Replace the review text below with your customers' actual words.
+         ===================================================================== -->
+    <section id="reviews" class="scroll-mt-16 bg-slate-50 py-20 sm:py-24 dark:bg-[#0B192C]">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+        <h2 class="max-w-2xl text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl dark:text-white" data-aos="fade-up">What our clients say</h2>
+
+        <div class="mt-12" data-aos="fade-up" data-aos-delay="100">
+          <div id="t-carousel" role="region" aria-roledescription="carousel" aria-label="Customer reviews" tabindex="0" class="rounded-3xl">
+            <div class="overflow-hidden rounded-3xl bg-white shadow-xl ring-1 ring-slate-900/5 dark:border dark:border-slate-800 dark:bg-slate-900/60 dark:ring-0 dark:backdrop-blur">
+              <div id="t-track" class="flex transition-transform duration-700 ease-out">
+
+                <!-- Review 1 -->
+                <figure class="grid w-full shrink-0 md:grid-cols-5" role="group" aria-roledescription="slide" aria-label="1 of 2">
+                  <div class="relative min-h-[16rem] bg-gradient-to-br from-blue-700 to-slate-900 md:col-span-2">
+                    <span aria-hidden="true" class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white/40">RK</span>
+                    <img src="https://images.unsplash.com/photo-1778692258270-bc0e80e975c0?auto=format&fit=crop&w=800&q=75" alt="Portrait of Rohit Kumar" loading="lazy" decoding="async" data-fallback class="absolute inset-0 h-full w-full object-cover object-top" />
+                  </div>
+                  <div class="flex flex-col justify-center p-8 md:col-span-3 md:p-10">
+                    <div class="flex items-center gap-1" role="img" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i>
+                    </div>
+                    <blockquote class="mt-5 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
+                      &ldquo;We needed cameras across two floors and a warehouse without disturbing operations. The team planned the cabling around our shifts, finished on schedule, and swapped a faulty unit the same day we reported it.&rdquo;
+                    </blockquote>
+                    <figcaption class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
+                      <div>
+                        <p class="font-bold text-slate-900 dark:text-white">Rohit Kumar</p>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">Purchase Head, Satya</p>
+                      </div>
+                      <span class="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300"><i data-lucide="badge-check" class="h-4 w-4"></i>Verified customer</span>
+                    </figcaption>
+                  </div>
+                </figure>
+
+                <!-- Review 2 -->
+                <figure class="grid w-full shrink-0 md:grid-cols-5" role="group" aria-roledescription="slide" aria-label="2 of 2">
+                  <div class="relative min-h-[16rem] bg-gradient-to-br from-blue-700 to-slate-900 md:col-span-2">
+                    <span aria-hidden="true" class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white/40">SR</span>
+                    <img src="https://images.unsplash.com/photo-1770627016447-cb9d29ed0398?auto=format&fit=crop&w=800&q=75" alt="Portrait of Seema Rathore" loading="lazy" decoding="async" data-fallback class="absolute inset-0 h-full w-full object-cover object-top" />
+                  </div>
+                  <div class="flex flex-col justify-center p-8 md:col-span-3 md:p-10">
+                    <div class="flex items-center gap-1" role="img" aria-label="5 out of 5 stars">
+                      <i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i><i data-lucide="star" class="h-5 w-5 fill-amber-400 text-amber-400"></i>
+                    </div>
+                    <blockquote class="mt-5 text-lg leading-relaxed text-slate-700 dark:text-slate-300">
+                      &ldquo;Our office and vehicle yard now sit on one screen. I check live views from my phone, and when something needed attention the helpdesk answered straight away.&rdquo;
+                    </blockquote>
+                    <figcaption class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
+                      <div>
+                        <p class="font-bold text-slate-900 dark:text-white">Seema Rathore</p>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">Director, Vehicle Shift</p>
+                      </div>
+                      <span class="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-xs font-semibold text-emerald-700 dark:bg-emerald-400/10 dark:text-emerald-300"><i data-lucide="badge-check" class="h-4 w-4"></i>Verified customer</span>
+                    </figcaption>
+                  </div>
+                </figure>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Carousel controls -->
+          <div class="mt-6 flex items-center justify-center gap-4">
+            <button id="t-prev" type="button" aria-label="Previous review" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"><i data-lucide="chevron-left" class="h-5 w-5"></i></button>
+            <div class="flex items-center gap-2" id="t-dots">
+              <button type="button" data-index="0" aria-label="Show review 1" class="t-dot h-2.5 w-8 rounded-full bg-blue-700 transition-all dark:bg-cyan-400"></button>
+              <button type="button" data-index="1" aria-label="Show review 2" class="t-dot h-2.5 w-2.5 rounded-full bg-slate-300 transition-all dark:bg-slate-600"></button>
+            </div>
+            <button id="t-next" type="button" aria-label="Next review" class="inline-flex h-11 w-11 items-center justify-center rounded-full border border-slate-300 bg-white text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:bg-slate-800"><i data-lucide="chevron-right" class="h-5 w-5"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       SHARED FOOTER. Keep identical on every page (see note above).
+       ===================================================================== -->
+  <footer class="border-t border-slate-800 bg-slate-950 text-slate-300">
+    <div class="mx-auto max-w-7xl px-4 py-16 pb-28 sm:px-6 lg:px-8 lg:pb-16">
+      <div class="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
+
+        <!-- Brand and certifications -->
+        <div>
+          <a href="index.html" class="flex items-center gap-2.5" aria-label="JustProtex home">
+            <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-cyan-400 text-slate-950"><i data-lucide="shield-check" class="h-5 w-5"></i></span>
+            <span class="text-xl font-extrabold tracking-tight text-white">JustProtex</span>
+          </a>
+          <p class="mt-4 max-w-xs text-sm leading-relaxed text-slate-400">
+            Security solutions for homes and businesses across Gurgaon and Delhi: CCTV, access control and smart home systems, installed and supported by our own engineers.
+          </p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <span class="inline-flex items-center gap-1.5 rounded-full border border-slate-700 px-3 py-1 text-xs font-medium text-slate-200"><i data-lucide="badge-check" class="h-3.5 w-3.5 text-emerald-400"></i>ISO Certified</span>
+            <span class="inline-flex items-center gap-1.5 rounded-full border border-slate-700 px-3 py-1 text-xs font-medium text-slate-200"><i data-lucide="shield-check" class="h-3.5 w-3.5 text-emerald-400"></i>Licensed &amp; insured</span>
+          </div>
+        </div>
+
+        <!-- Services -->
+        <div>
+          <h3 class="text-sm font-semibold text-white">Services</h3>
+          <ul class="mt-4 space-y-2.5 text-sm">
+            <li><a class="transition hover:text-white" href="services/access-control.html">Access Control System</a></li>
+            <li><a class="transition hover:text-white" href="services/cctv-installation.html">CCTV Installation</a></li>
+            <li><a class="transition hover:text-white" href="services/biometric-installation.html">Biometric Installation</a></li>
+            <li><a class="transition hover:text-white" href="services/home-automation.html">Home Automation</a></li>
+            <li><a class="transition hover:text-white" href="services/epabx-installation.html">EPABX Installation</a></li>
+            <li><a class="transition hover:text-white" href="services/boom-barrier.html">Boom Barrier</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick links and policies (point the policy links at your real pages) -->
+        <div>
+          <h3 class="text-sm font-semibold text-white">Quick links</h3>
+          <ul class="mt-4 space-y-2.5 text-sm">
+            <li><a class="transition hover:text-white" href="index.html">Home</a></li>
+            <li><a class="transition hover:text-white" href="about.html">About Us</a></li>
+            <li><a class="transition hover:text-white" href="services/index.html">All Services</a></li>
+            <li><a class="transition hover:text-white" href="shop.html">Shop</a></li>
+            <li><a class="transition hover:text-white" href="why-choose-us.html">Why Choose Us</a></li>
+            <li><a class="transition hover:text-white" href="contact.html">Contact</a></li>
+            <li><a class="transition hover:text-white" href="contact.html#quote" data-quote-link>Get a free quote</a></li>
+          </ul>
+          <h3 class="mt-8 text-sm font-semibold text-white">Policies</h3>
+          <ul class="mt-4 space-y-2.5 text-sm">
+            <li><a class="transition hover:text-white" href="#">Privacy Policy</a></li>
+            <li><a class="transition hover:text-white" href="#">Terms of Service</a></li>
+            <li><a class="transition hover:text-white" href="#">Warranty &amp; Returns</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h3 class="text-sm font-semibold text-white">Contact</h3>
+          <ul class="mt-4 space-y-4 text-sm">
+            <li class="flex gap-3">
+              <i data-lucide="map-pin" class="mt-0.5 h-4 w-4 shrink-0 text-cyan-300"></i>
+              <address class="not-italic leading-relaxed">Office: 707 A, Vipul Business Park,<br />Sector 48, Gurgaon</address>
+            </li>
+            <li class="flex gap-3"><i data-lucide="smartphone" class="mt-0.5 h-4 w-4 shrink-0 text-cyan-300"></i><a class="transition hover:text-white" href="tel:+919802737371">+91 9802737371</a></li>
+            <li class="flex gap-3"><i data-lucide="phone" class="mt-0.5 h-4 w-4 shrink-0 text-cyan-300"></i><a class="transition hover:text-white" href="tel:+911244145509">0124-4145509</a></li>
+            <li class="flex gap-3"><i data-lucide="mail" class="mt-0.5 h-4 w-4 shrink-0 text-cyan-300"></i><a class="break-all transition hover:text-white" href="mailto:sales@justprotex.com">sales@justprotex.com</a></li>
+            <li class="flex gap-3"><i data-lucide="clock" class="mt-0.5 h-4 w-4 shrink-0 text-cyan-300"></i><span>Helpdesk open 24/7</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-14 flex flex-col items-center justify-between gap-3 border-t border-slate-800 pt-6 text-sm text-slate-500 sm:flex-row">
+        <p>&copy; <span id="year">2026</span> JustProtex. All rights reserved.</p>
+        <p>Serving Gurgaon and Delhi</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating call + WhatsApp buttons (shared) -->
+  <div class="fixed bottom-5 right-4 z-50 flex flex-col items-end gap-3 sm:bottom-6 sm:right-6">
+    <a href="tel:+919802737371" aria-label="Call JustProtex now"
+      class="group relative inline-flex h-14 w-14 items-center justify-center rounded-full bg-blue-700 text-white shadow-lg shadow-blue-900/30 transition hover:scale-110 dark:bg-cyan-400 dark:text-slate-950">
+      <i data-lucide="phone" class="h-6 w-6"></i>
+      <span class="pointer-events-none absolute right-16 whitespace-nowrap rounded-lg bg-slate-900 px-3 py-1.5 text-xs font-medium text-white opacity-0 transition group-hover:opacity-100 group-focus-visible:opacity-100">Call now</span>
+    </a>
+    <a href="https://wa.me/919802737371?text=Hi%20JustProtex%2C%20I%27d%20like%20a%20security%20quote." target="_blank" rel="noopener noreferrer" aria-label="Chat with JustProtex on WhatsApp"
+      class="group relative inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-emerald-900/30 transition hover:scale-110">
+      <span aria-hidden="true" class="absolute inset-0 -z-10 animate-ping rounded-full bg-[#25D366]/50 motion-reduce:animate-none"></span>
+      <svg viewBox="0 0 24 24" class="h-7 w-7" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      <span class="pointer-events-none absolute right-16 whitespace-nowrap rounded-lg bg-slate-900 px-3 py-1.5 text-xs font-medium text-white opacity-0 transition group-hover:opacity-100 group-focus-visible:opacity-100">Chat on WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- Scripts: icons and scroll animations, then the page logic (must be last) -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
